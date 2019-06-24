@@ -37,4 +37,4 @@ deli_line = ["Afia","Mary"]
 puts deli_line
 
 take_a_number(deli_line, "John")
-take_a_number_two(katz_deli)
+take_a_number_two(deli_line)
