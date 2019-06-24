@@ -25,3 +25,8 @@ def now_serving(customer)
     customer.shift
   end
 end
+
+deli_line = ["Afia","Mary"]
+puts deli_line
+
+take_a_number(deli_line, "John")
