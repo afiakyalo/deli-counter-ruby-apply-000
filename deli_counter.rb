@@ -17,6 +17,13 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
+$ticket_number = 47
+def take_a_number_two(katz_deli)
+  katz_deli.push($ticket_number)
+  $ticket_number += 1
+  puts "Welcome, #{$ticket_number}. You are number #{katz_deli.length} in line."
+end
+  
 def now_serving(customer)
   if customer.empty?
     puts "There is nobody waiting to be served!"
@@ -30,3 +37,4 @@ deli_line = ["Afia","Mary"]
 puts deli_line
 
 take_a_number(deli_line, "John")
+take_a_number_two(katz_deli)
